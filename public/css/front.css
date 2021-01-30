@@ -33,6 +33,14 @@ body {
   font-size: 0.8em;
 }
 
+.navbar-brand {
+  color: #000 !important;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
 .posts .post .date {
   font-size: 0.6em;
   color: #999999;
