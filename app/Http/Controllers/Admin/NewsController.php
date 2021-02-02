@@ -100,7 +100,7 @@ class NewsController extends Controller
       $history->edited_at = Carbon::now();
       $history->save();
       
-      return redirect('admin/news');
+      return redirect()->action('Admin\NewsController@update',["id"=>$request->id]);
   }
   
   public function delete(Request $request)
