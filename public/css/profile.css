@@ -39,3 +39,8 @@ body {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
+.header-link {
+  margin-left: 10px;
+  color: #b0c4de;
+}
+

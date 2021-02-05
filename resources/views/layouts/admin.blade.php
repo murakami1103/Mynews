@@ -37,6 +37,10 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    
+                    <!-- ヘッダーにニュース一覧とプロフィール一覧に行き来できるリンク -->
+                    <a class="header-link" href="{{ url('admin/news/')}}">ニュース一覧</a>
+                    <a class="header-link" href="{{ url('admin/profile')}}">プロフィール一覧</a>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
