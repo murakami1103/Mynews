@@ -92,6 +92,7 @@ class NewsController extends Controller
       unset($news_form['image']);
       unset($news_form['remove']);
       unset($news_form['_token']);
+      
       // 該当するデータを上書きして保存する
       $news->fill($news_form)->save();
       
